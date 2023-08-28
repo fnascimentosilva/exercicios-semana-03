@@ -15,24 +15,33 @@
     <div>
         <h2>Preencha os dados</h2>
     </div>
+    <form>
+        <div class="informacoes">
+            <div class="informacoes-cadastro">
+                <label for="nome">Nome:</label>
+                <input type="text" class="nome">
+            </div>
+            <div class="informacoes-cadastro">
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" name="nascimento" id="data-nascimento">
+            </div>
+            <div class="informacoes-cadastro">
+                <label for="cpf">CPF:</label>
+                <input type="text">
+            </div>
+            <div class="informacoes-cadastro">
+                <label for="municipio">Município:</label>
+                <select name="municipio" id="municipios">
+                    <option value="">Selecione</option>
+                    <option value="guimaraes">Guimarães</option>
+                    <option value="vila-real">Vila Real</option>
+                    <option value="porto">Porto</option>
+                    <option value="lisboa">Lisboa</option>
 
-    <div class="informacoes">
-        <label for="nome">Nome:</label>
-        <input type="text" class="nome">
-        <label for="nascimento">Data de nascimento:</label>
-        <input type="date" name="nascimento" id="data-nascimento">
-        <label for="cpf">CPF:</label>
-        <input type="text">
-        <label for="municipio">Município:</label>
-        <select name="municipio" id="municipios">
-            <option value="">Selecione</option>
-            <option value="guimaraes">Guimarães</option>
-            <option value="vila-real">Vila Real</option>
-            <option value="porto">Porto</option>
-            <option value="lisboa">Lisboa</option>
-
-        </select>
-    </div>
+                </select>
+            </div>
+        </div>
+    </form>
 </body>
 
 </html>

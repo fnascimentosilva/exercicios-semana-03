@@ -1,4 +1,33 @@
+form{
+background-color: aqua;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
 .informacoes {
     display: flex;
     flex-direction: column;
+    align-content: center;
+    width: 40%;
+    gap:15px;
+}
+
+.informacoes .informacoes-cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.informacoes .informacoes-cadastro input,
+.informacoes .informacoes-cadastro select 
+{
+   
+    width: 200px;
+    height: 20px;
+    border-radius: 8px;
 }
